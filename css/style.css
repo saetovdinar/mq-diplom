@@ -1,23 +1,23 @@
 @font-face
 {
   font-family: "OpenSansRegular";
-  font-weight: normal;
-  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+  src: url("C:/Users/user/Desktop/mq-diplom-main/fonts/OpenSans-Regular.ttf")
 }
 @font-face
 {
   font-family: "OpenSansBold";
-  font-weight: Bold;
-  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+  src: url("C:/Users/user/Desktop/mq-diplom-main/fonts/OpenSans-Bold.ttf")
 }
-
 *
 {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
+a 
+{
+  text-decoration: none;
+}
 body
 {
   margin: 0;
@@ -111,7 +111,84 @@ body
   margin-top: 99px;
   line-height: 75px;
 }
+/*сейчас в тренде*/
+.trends_container
+{
+ 
+}
+.trends_topics_container
+{
+  display: flex;
+}
+.trends_topic
+{ 
+  position: relative;
+  height: 320px;
+  background-image: url("C:/Users/user/Desktop/mq-diplom-main/image/trend1.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  z-index: 0;
+ 
+}
+.trends_topic::before
+{
+  content: "";
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.25;
+  position: absolute;
+  z-index: -1;
+}
+.trends_title_container
+{
+  text-transform: uppercase;
+  font-size: 14px;
 
+}
+.trends_teg_name
+{
+  font-family: OpenSansBold;
+  font-size: 14px;
+  color: #b59f5b;
+  margin-right: 16px;
+
+}
+
+.trends_topics_title
+{
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.trends_topic_title_link
+{
+  display: block;
+  font-family: OpenSansBold;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.trends_title 
+{
+  font-family: OpenSansBold;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.trends_title::after
+{
+  content: "";
+  display: block;
+  width: 66px;
+  height: 3px;
+  background-color: #e1d9bd;
+  text-align: center;
+  margin: 9px auto 0 auto; 
+}
 
 /*основной контент сайта*/
 .main_content_container
