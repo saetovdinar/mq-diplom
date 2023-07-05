@@ -112,10 +112,7 @@ body
   line-height: 75px;
 }
 /*сейчас в тренде*/
-.trends_container
-{
-  
-}
+
 .trends_title 
 {
   font-family: OpenSansBold;
@@ -304,7 +301,92 @@ body
   line-height: 23px;
 }
 
+/*раздел с изделиями*/
 
+
+.products_title 
+{
+  font-family: OpenSansBold;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.products_title::after
+{
+  content: "";
+  display: block;
+  width: 66px;
+  height: 3px;
+  background-color: #e1d9bd;
+  text-align: center;
+  margin: 9px auto 0 auto; 
+}
+.products_items_container
+{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+
+  display: flex;
+  justify-content: center ;
+  gap: 0px 65px;
+ 
+}
+.products_item
+{
+  width: 348px;
+  text-align: center;
+
+}
+.products_item_container
+{   
+  height: 265px;
+  border: solid 4px #d3c59d;
+  position: relative;
+  bottom: 30px;
+  padding: 54px 21px 0px 20px;
+  text-align: start;
+}
+.product_item_title
+{
+  font: 20px OpenSansBold;
+  text-transform: uppercase;
+
+}
+.products_item_description
+{
+  font: 15px OpenSansRegular;
+  margin-bottom: 26px;
+}
+.products_price
+{
+  font: 14px OpenSansBold;
+}
+.products_item_link
+{
+  color: #b59f5b;
+}
+.products_price
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price
+{   
+ 
+
+}
+.products_btn
+{
+  
+  color: white;
+  border: none;
+  display: block;
+  width: 140px;
+  height: 48px;
+  background-color: #b59f5b;
+}
 
 /*блок доп. информации, новые посты */
 .aside
