@@ -59,7 +59,10 @@ body
   justify-content: space-between;
   align-items: center;
 }
-
+.header_burger_menu
+{
+  display: none;
+}
 .header_logo
 {
   width: 181px;
@@ -133,7 +136,6 @@ body
 .trends_topics_container
 {
   display: flex;
-  justify-content: center;
   gap: 0px 4px;
 }
 .trends_topic
@@ -677,4 +679,57 @@ body
   font-family: Open Sans;
   font-weight: bold;
   font-size: 12px;
+}
+
+@media (min-width: 641px) and (max-width: 1200px)
+{
+  .header_burger_menu
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0px;
+
+  }
+  .burger_menu
+  {
+    display: block  ;
+    background-color: white;
+    height: 2px;
+    width: 21px;
+  }
+  .page_nav
+  {
+    display: none;
+    position: absolute;
+  }
+  .header
+  {
+    background-position: 50% 0%;
+  }
+  .header_top_panel
+  {
+    width: 100%;
+  }
+  .header_container
+  {
+    width: 768px;
+    margin: auto;
+    padding: 50px 35px 125px 35px;
+  }
+  .header_title 
+  {
+    font-size: 40px;
+    margin-top: 105px;
+    width: 603px;
+  }
+  .trends_topics_container
+  {
+    
+    flex-wrap: wrap;
+    gap: 4px 4px;
+  }
+  .trends_topic
+  {
+    width: 49.7%;
+  }
 }
