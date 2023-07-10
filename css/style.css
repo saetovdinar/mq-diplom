@@ -21,6 +21,121 @@ a
 body
 {
   margin: 0;
+  position: relative;
+}
+.pop_up
+{
+  width: 280px;
+  height: 410px;
+  position: fixed;
+  left: calc(50% - 140px);
+  top: calc(50% - 210px);
+  padding: 30px 25px 31px 25px;
+  z-index: 10;
+  background-color: white;
+}
+.pop_up_cross
+{
+  position: absolute;
+}
+.pop_up_cross span
+{
+  width: 10px;
+  height: 3px;
+  
+}
+._hidden
+{
+  display: none;
+}
+.pop_up_container
+{
+  text-align: center;
+}
+.pop_up_container::before
+{
+
+}
+.pop_up_title
+{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: OpenSansBold;
+}
+.pop_up_title::after
+{
+  content: "";
+  display: block;
+  width: 46px;
+  height: 3px;
+  background-color: #e1d9bd;
+  text-align: center;
+  margin: 6px auto 15px auto; 
+}
+.pop_up_counter p
+{
+  font-size: 10px;
+  text-align: left;
+  margin-bottom: 8px;
+  font-family: OpenSansRegular;
+}
+.pop_up_select
+{
+  width: 230px;
+  height: 30px;
+  font-size: 9px;
+  background-color: #f3f7f6;
+  border: none;
+  padding-left: 8px;
+}
+.pop_up_counter
+{
+  margin-bottom: 23px;
+}
+.pop_up_subscribe 
+{
+  font-size: 10px;
+  text-align: left;
+  margin-bottom: 19px;
+}
+.pop_up_subscribe p
+{
+  margin-bottom: 3px;
+  font-family: OpenSansRegular;
+}
+.first_btn
+{
+  margin-right: 9px;
+}
+
+.pop_up_feedback p 
+{
+  text-align: left;
+  font-size: 10px;
+  font-family: 'OpenSansRegular';
+  line-height: 11px;
+  margin-bottom: 5px;
+
+}
+.feedback_btn
+{
+  width: 231px;
+  height: 34px;
+  background-color: #b69f5b;
+  border: none;
+  color: white;
+  font-family: OpenSansBold;
+  font-size: 11px;
+}
+.commentary
+{
+  width: 231px;
+  height: 96px;
+  border: none;
+  background-color: #f3f7f6;
+  margin-bottom: 13px;
+  padding: 15px 0px 0 16px;
+  font-size: 9px;
 }
 /*шапка сайта*/
 .header
