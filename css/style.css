@@ -283,7 +283,7 @@ body
   position: relative;
   height: 320px;
   
-  
+  background-color: black;
   background-repeat:no-repeat;
   background-size: cover;
   padding: 0px 22px 16px 18px;
@@ -375,6 +375,7 @@ body
 {
   margin-bottom: 0;
 }
+
 
 .news_image
 {
@@ -840,8 +841,470 @@ body
   font-weight: bold;
   font-size: 12px;
 }
+@media (max-width: 640px) and (orientation: landscape) {
+  .header_burger_menu
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 3px 0px;
+    position: absolute;
+    top: 16px;
+    right: 8px;
+  }
+  
+  .burger_menu
+  {
+    display: block  ;
+    background-color: white;
+    height: 1px;
+    width: 12px;
+  }
+  
+  .header
+  { 
 
-@media (max-width: 640px) {
+    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+    background-position: 35%;
+    width: 100%;
+  }
+  .header_title
+  {
+    width: 100%;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 14px;
+    padding: 0 15px;
+  }
+  .header_container
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 113px 0px 105px 0px;
+  }
+  .header::before
+  {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  .trends_title
+  {
+    font-size: 8px;
+    margin-top: 19px;
+    margin-bottom: 11px;
+  }
+  .trends_title::after
+  {
+    margin: 5px auto 0 auto;
+    width: 33px;
+    height: 2px;
+  }
+  .page_nav
+  {
+    display: none;
+  }
+  .header_logo
+  {
+    width: 135px;
+    height: 30px;
+    margin: auto;
+    padding-left: 0;
+  }
+  .header_top_panel
+  {
+    display: block;
+    margin: auto;
+  }
+
+  .trends_topics_container
+  {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1px 1px;
+  }
+  .trends_title_container
+  {
+    width: 164px;
+    padding: 10px 7px 14px 9px; ;
+    margin: 0px 0 7px 0;;
+    border: solid 1px #76693c;
+    
+  }
+  .trends_topic
+  {
+    width: calc(50% - 1px);
+    height: 116px;
+    padding: 0;
+  }
+  .trends_teg_name 
+  {
+    display: inline-block;
+    font-size: 7px;
+    padding-left: 1.5px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+  }
+  .trends_topic_title_link
+  {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .trends_topics_title
+  {
+    margin-top: 0;
+  }
+  .main_content_container
+  {
+    width: 100%;
+    display: block;
+    padding: 22px 7px 0 7px;
+  }
+  .page
+  {
+    width: 100%;
+  }
+  .page_topics
+  {
+    display: block;
+    width: 180px;
+    height: 250px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    margin: auto;
+  }
+  .margin_third
+  {
+    margin-bottom: 17px;
+  }
+  .margin_fourth
+  {
+    margin-bottom: 0px;
+    height: 240px;
+  }
+  
+  .news_image
+  {
+    width: 165px;
+    height: 125px;
+    margin-right: 0;
+   
+  }
+  .topics_title
+  {
+    margin-top: 0px;
+    margin-bottom: 2px;
+  }
+
+  .topics_title_link
+  {
+    font-size: 8px;
+    line-height: 13px;
+  }
+  .topic_teg_name
+  {
+    font-size: 7px;
+    margin-right: 6px;
+  }
+  .topic_additional_inf
+  {
+    margin-bottom: 4px;
+  }
+  .topics_title_link
+  {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .topic_data 
+  {
+    font-size: 6px;
+  }
+  .autor
+  {
+    font-size: 6px;
+    margin-left: 2px;
+  }
+  .aside_sections_titles
+  {
+    font-size: 8px;
+    
+  }
+  .first
+  {
+    padding-bottom: 12px;
+    padding-top: 10px;
+  }
+  .third
+  {
+    padding-bottom: 11px;
+  }
+  .fourth
+  {
+    padding-top: 18px;
+    padding-bottom: 5px;
+  }
+  .new_post__title_link
+  {
+    font-size: 7px;
+    line-height: 10px;
+  } 
+  .new_post_date
+  {
+    font-size: 6px;
+    margin-bottom: 0px;
+  }
+  .new_posts_conteiner
+  {
+    margin-bottom: 31px;
+  }
+  .aside_search_form 
+  {
+    height: 41px;
+    width: 166px;
+  }
+  .aside_search_field::placeholder
+  {
+    font-size: 8px;
+  }
+  .aside_search_field
+  {
+    height: 22px;
+    padding: 0px 0 0px 9px;
+  }
+  .aside_search_btn 
+  {
+    width: 30px;
+    height: 22px;
+    background-size: 10px 10px;
+  }
+  .aside_new_post_item 
+  {
+    margin: auto;
+    margin-bottom: 11px;
+    width: 180px;
+  }
+  .aside_post_image
+  {
+    width: 36px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  .aside_new_posts 
+  {
+    margin-bottom: 0px;
+  }
+  .aside_sections_titles::after
+  {
+    height: 1px;
+    width: 32px;
+    margin-top: 7px;
+   
+  }
+  .tegs_list_links
+  {
+    font-size: 6px;
+    padding: 2px 6px 2px 6px;
+    border: solid 1px #eeeeee;
+  }
+  .dictr_subscribe_btn 
+  {
+    height: 23px;
+    font-size: 7px;
+  }
+  .topic_description
+  {
+    font-size: 7px;
+    line-height: 10px;
+  }
+  .aside_distribution 
+  {
+    margin-bottom: 0px;
+    width: 166px;
+    margin: auto;
+  }
+  .aside
+  {
+    margin-left: 0px;
+  }
+  .aside_topics_items
+  {
+    height: 23px;
+  }
+  .aside_topics_list
+  {
+    width: 180px;
+    margin: auto;
+  }
+  .aside_topics_list_link 
+  {
+    font-size: 7px;
+    margin: auto;
+  }
+  .aside_tegs 
+  {
+    margin-bottom: 0px;
+    
+  }
+  .aside_tegs_list
+  {
+    width: 180px;
+  }
+  .aside_topics
+  {
+    width: 100%;
+  }
+  .topic_top_index
+  {
+    font-size: 6px;
+  }
+  .products_items_container
+  {
+    flex-wrap: wrap;
+    width: 180px;
+    padding: 0px;
+    
+  }
+  .product_item_title
+  {
+    font-size: 9px;
+    
+  }
+  .products_item_container
+  {
+    border: solid 2px #d3c59d;
+    padding: 24px 8px 9px 8px;
+    height: 73px;
+    width: 148px;
+    display: block;
+    box-sizing: content-box;
+    margin: auto;
+  }
+  .products_item
+  {
+    width: 100%;
+    
+  }
+  .item_second
+  {
+    padding: 24px 8px 29px 8px;
+  }
+  .item_third
+  {
+    padding: 24px 8px 20px 8px;
+  }
+  .products_title 
+  {
+    font-size: 8px;
+    margin-top: 21px;
+  }
+  .products_title::after
+  {
+    width: 35px;
+    height: 1px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+  }
+  .products_item_description 
+  {
+    font-size: 7px;
+    margin-bottom: 14px;
+  }
+  .products_picture
+  {
+    height: 142px;
+    width: 142px;
+  }
+  .products_price
+  {
+    font-size: 10px;
+   
+  }
+  .price
+  {
+    font-size: 11px;
+  }
+  .products_btn
+  {
+    width: 71px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .crossing
+  {
+    font-size: 6px;
+  }
+  .crossing::before 
+  {
+    top: 4px;
+    width: 19px;
+  }
+  .distrib_input 
+  {
+    padding-left: 9px;
+    height: 20px;
+  }
+  .distrib_input::placeholder
+  {
+    font-size: 8px;
+  }
+  .distrib_input 
+  {
+    margin-bottom: 3px;
+    position: relative;
+    bottom: 13px;
+  }
+  .dictr_subscribe_btn 
+  {
+    margin-bottom: 15px;
+  }
+  .footer
+  {
+    width: 100%;
+  }
+  .social_media_links
+  {
+    padding: 0;
+  }
+  .footer_social
+  {
+    margin-bottom: 22px;
+    padding: 10px 0px 10px 0px;
+    width: 163px;
+  }
+  .social_media_item 
+  {
+    margin-right: 14px;
+  }
+  .social_media_link 
+  {
+    width: 10px;
+    height: 10px;
+  }
+  .dribbble
+  {
+    background-size: 10px 10px;
+  }
+  .pinterest
+  {
+    background-size: 10px 10px;
+  }
+  .tumblr
+  {
+    background-size: 10px 10px;
+  }
+  .copyright_text 
+  {
+    font-size: 6px;
+  }
+}
+@media (max-width: 640px) and (orientation: portrait) {
   .header_burger_menu
   {
     display: flex;
@@ -1306,7 +1769,7 @@ body
 }
 
 
-@media (min-width: 641px) and (max-width: 1200px)
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait)
 {
   .header
   {
@@ -1378,6 +1841,200 @@ body
   .trends_topic
   {
     width: calc(50% - 2px);
+    height: 247px;
+    margin-bottom: 3px;
+  }
+  .trends_title_container 
+  {
+    padding: 26px 40px 26px 33px;
+  }
+  .main_content_container
+  {
+    width: 700px;
+    padding: 45px 5px 64px 5px
+  }
+  .news_image
+  {
+    width: 388px;
+    height: 305px;
+  }
+  .topics_title
+  {
+    margin-top: 14px;
+    margin-bottom: 27px;
+  }
+  .topics_title_link
+  {
+    font-size: 17px;
+  }
+  .topic_additional_inf 
+  {
+    margin-bottom: 27px;
+  }
+  .autor 
+  {
+    margin-left: 6px;
+  }
+  .page
+  {
+    width: 61%;
+    margin-top: 3px;
+  }
+  .topic_description_conteiner
+  {
+    width: 388px;
+    
+  }
+  .page_topics
+  {
+    display: block;
+    width: 100%;
+    margin-right: 30px;
+  }
+  .aside
+  {
+    margin-left: 0px;
+    width: 41%;
+  }
+  .aside_sections_titles 
+  {
+    margin-bottom: 2px;
+  }
+  .aside_search_form
+  {
+    width: 266px;
+  }
+  .aside_tegs_list
+  {
+    
+    gap: 3px 4px;
+  }
+  .products_title 
+  {
+    font-size: 18px;
+  }
+  .products_title::after
+  {
+    margin-top: 7px;
+  }
+  .products_items_container
+  {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: auto;
+    width: 772px;
+    padding: 4px 60px 0px 55px;
+    
+  }
+  .products_item
+  {
+    width: 45%;
+    
+  }
+  .product_item_title 
+  {
+    font-size: 17px;
+  }
+  .products_item_description 
+  {
+    font-size: 14px;
+  }
+  .products_item_container
+  {
+    padding: 45px 25px 19px 21px;
+    height: 186px;
+    width: 286px;
+    position: relative;
+    right: 21px;
+  }
+  .products_picture
+  {
+    width: 289px;
+    height: 224px;
+  }
+  .footer
+  {
+    width: 725px;
+  }
+  .footer_social
+  {
+    margin-bottom: 46px;
+  }
+
+}
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape)
+{
+  .header
+  {
+    padding: 0px 0px 0px 0px;  
+  }
+  .header_container
+  {
+    width: 100%;
+    margin: auto;
+    padding: 40px 35px 110px 35px;
+  }
+  .header_title
+  {
+    font-size: 39px;
+    margin-top: 79px;
+    width: 600px;
+    line-height: 58px;
+  }
+  .header_logo
+  {
+    width: 159px;
+  }
+  .header_burger_menu
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0px;
+
+  }
+  .burger_menu
+  {
+    display: block ;
+    background-color: white;
+    height: 3px;
+    width: 23px;
+  }
+  .page_nav
+  {
+    display: none;
+    position: absolute;
+  }
+  
+  .header_top_panel
+  {
+    width: 100%;
+  }
+  .trends_title 
+  {
+    font-size: 18px;
+    margin-top: 43px;
+    margin-bottom: 20px;
+  }
+  .trends_topic_title_link 
+  {
+    font-size: 0.4em;
+    line-height: 1.5em;
+  }
+  
+  .trends_topics_container
+  {
+    flex-wrap: wrap;
+    gap: 0px 2px;
+  }
+  .trends_teg_name
+  {
+    font-size: 0.4em;
+    margin-right: 0.1em;
+  }
+
+  .trends_topic
+  {
+    width: calc(25% - 2px);
     height: 247px;
     margin-bottom: 3px;
   }
