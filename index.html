@@ -40,7 +40,7 @@
       <div class="pop_up_feedback">
         <p>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
         <textarea class="commentary">Может, больше рецептов?</textarea>
-        <button class="feedback_btn"type="submit">отправить</button>
+        <button class="feedback_btn" type="submit">отправить</button>
       </div>
     </div>
   </div>
@@ -116,6 +116,7 @@
         <h2 class="trends_topics_title">
           <a href="#0" class="trends_topic_title_link">собираемс в первый поход в горы </a>
         </h2>
+      </div>
     </article>
     <article class="trends_topic  trends_fourth">
       <div class="trends_title_container">
@@ -132,14 +133,15 @@
 <div class="main_content_container">
  <main class="page">
      <article class="page_topics">
-      
-       <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg" alt="Мужчина идет на рассвет на пляже"  class="news_image">
+        <div class="topic_img_container">
+          <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg" alt="Мужчина идет на рассвет на пляже"  class="news_image">
+        </div>
 
        <div class="topic_description_conteiner">
-         <div class="topic_top_tegs">
-           <span class="topic_teg_name">travel</span>
-           <span class="topic_teg_name">health</span>
-         </div>
+         <ul class="topic_top_tegs">
+           <li class="topic_teg_name"><a href="#0" class="teg_link">travel</a> </li>
+           <li class="topic_teg_name"><a href="#0" class="teg_link">health</a> </li>
+         </ul>
         <h2 class="topics_title">
          <a href="#0" class="topics_title_link">10 мест, ради которых стоит проснуться на рассвете</a>
         </h2>
@@ -155,10 +157,10 @@
       <article class="page_topics">
         <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg" alt="Девушка занимается йогой на пляже"  class="news_image">
         <div class="topic_description_conteiner">
-         <div class="topic_top_tegs">
-           <span class="topic_teg_name">health</span>
-           <span class="topic_teg_name">lifestyle</span>
-         </div>
+          <ul class="topic_top_tegs">
+            <li class="topic_teg_name"><a href="#0" class="teg_link">health </a> </li>
+            <li class="topic_teg_name"><a href="#0" class="teg_link">lifestyle</a> </li>
+          </ul>
          <h2 class="topics_title">
           <a href="#0" class="topics_title_link">йога для начинающих в домшних условиях</a>
          </h2>
@@ -175,9 +177,10 @@
       <article class="page_topics margin_third">
         <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg" alt="Девушка на летнем фестивале в толпе зрителей"  class="news_image">
         <div class="topic_description_conteiner">
-         <div class="topic_top_tegs">
-           <span class="topic_teg_name">music</span>
-         </div>
+          <ul class="topic_top_tegs">
+            <li class="topic_teg_name"><a href="#0" class="teg_link">music </a> </li>
+            
+          </ul>
         <h2 class="topics_title">
           <a href="#0" class="topics_title_link">лучшие музыкальные фестивали этого лета</a>
         </h2>
@@ -194,10 +197,10 @@
       <article class="page_topics margin_fourth">
         <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="Обеденный стол с едой у окна"  class="news_image">
         <div class="topic_description_conteiner">
-         <div class="topic_top_tegs">
-           <span class="topic_teg_name">lifestyle</span>
-           <span class="topic_teg_name">food</span>
-         </div>
+          <ul class="topic_top_tegs">
+            <li class="topic_teg_name"><a href="#0" class="teg_link">lifestyle </a> </li>
+            <li class="topic_teg_name"><a href="#0" class="teg_link">food</a> </li>
+          </ul>
           <h2 class="topics_title">
            <a href="#0" class="topics_title_link">наукоёмкий подход к кулинарии</a>
          </h2>
@@ -213,11 +216,11 @@
      <article class="page_topics">
        <img class="news_image" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg" alt="Подушка с принтом">
       <div class=topic_description_conteiner>
-         <div class="topic_top_tegs">
-           <span class="topic_teg_name">lifestyle</span>
-           <span class="topic_teg_name">interior</span>
-           <span class="topic_teg_name">art</span>
-         </div>
+        <ul class="topic_top_tegs">
+          <li class="topic_teg_name"><a href="#0" class="teg_link">lifestyle </a> </li>
+          <li class="topic_teg_name"><a href="#0" class="teg_link">interior</a> </li>
+          <li class="topic_teg_name"><a href="#0" class="teg_link">art</a> </li>
+        </ul>
         <h2 class="topics_title">
           <a href="#0" class="topics_title_link">делаем модные принты на подушках для интерьера </a>
         </h2>
@@ -287,9 +290,8 @@
      <form action="#0" class="aside_search_form" method="get">
           <p class="visually-hidden">В поле поиска нужно ввести интересующую Вас тему</p>
           <input type="search" class="aside_search_field" placeholder="Найти..."  required>
-          <button type="submit" class="aside_search_btn">
-            <p class="visually-hidden">Кнопака поиска, найдет необходимы пост, который был введен в поле поиска</p> 
-         </button>
+          <p class="visually-hidden">Кнопка поиска, найдет необходимы пост, который был введен в поле поиска</p>
+          <button type="submit" class="aside_search_btn"></button>
       </form>
     </section>
     <section class="aside_distribution">
@@ -333,22 +335,22 @@
       <h3 class="aside_sections_titles fourth">темы</h3>
       <ul class="aside_topics_list">
         <li class="aside_topics_items  ">
-          <a href="" class="aside_topics_list_link"> Красота</a><sup class="topic_top_index">12</sup>
+          <a href="" class="aside_topics_list_link"> Красота</a><span class="topic_top_index">12</span>
         </li>
         <li class="aside_topics_items  ">
-          <a href="" class="aside_topics_list_link"> Здоровье</a><sup class="topic_top_index">4</sup>
+          <a href="" class="aside_topics_list_link"> Здоровье</a><span class="topic_top_index">4</span>
         </li>
          <li class="aside_topics_items">
-          <a href="" class="aside_topics_list_link"> Образ жизни</a><sup class="topic_top_index">145</sup>
+          <a href="" class="aside_topics_list_link"> Образ жизни</a><span class="topic_top_index">145</span>
         </li>
         <li class="aside_topics_items">
-          <a href="" class="aside_topics_list_link"> Музыка</a><sup class="topic_top_index">28</sup>
+          <a href="" class="aside_topics_list_link"> Музыка</a><span class="topic_top_index">28</span>
         </li>
          <li class="aside_topics_items">
-          <a href="" class="aside_topics_list_link"> Спорт</a><sup class="topic_top_index">62</sup>
+          <a href="" class="aside_topics_list_link"> Спорт</a><span class="topic_top_index">62</span>
         </li>
         <li class="aside_topics_items">
-          <a href="" class="aside_topics_list_link"> Йога</a><sup class="topic_top_index">8</sup>
+          <a href="" class="aside_topics_list_link"> Йога</a><span class="topic_top_index">8</span>
         </li>
       </ul>
     </section>
@@ -358,7 +360,7 @@
   <h2 class="products_title"> наши изделия</h2>
   <div class="products_items_container">
     <article class="products_item">
-      <img src="image\shop-item-desk1.jpg" alt="Подушка на заказ , которую можно заказать с любимым принтом" class="products_picture">
+      <img src="./image/shop-item-desk1.jpg" alt="Подушка на заказ , которую можно заказать с любимым принтом" class="products_picture">
       <div class="products_item_container">
         <h3 class="product_item_title">подушки на диван</h3>
         <p class="products_item_description">
@@ -379,7 +381,7 @@
       </div>
     </article>
     <article class="products_item  ">
-      <img src="image\shop-item-desk2.jpg" alt="Хэндмэйд кукла, можно заказать на сайте" class="products_picture">
+      <img src="./image/shop-item-desk2.jpg" alt="Хэндмэйд кукла, можно заказать на сайте" class="products_picture">
       <div class="products_item_container item_second">
         <h3 class="product_item_title">кукла "зайчик"</h3>
         <p class="products_item_description">
@@ -396,7 +398,7 @@
       </div>
     </article>
     <article class="products_item  ">
-      <img src="image\shop-item-desk3.jpg" alt="Хэндмэйд шестиугольная рамка, можно заказать на сайте" class="products_picture">
+      <img src="./image/shop-item-desk3.jpg" alt="Хэндмэйд шестиугольная рамка, можно заказать на сайте" class="products_picture">
       <div class="products_item_container item_third">
         <h3 class="product_item_title">шестиугольная рамка</h3>
         <p class="products_item_description">
