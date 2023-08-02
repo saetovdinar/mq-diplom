@@ -893,18 +893,18 @@ body
   {
     display: flex;
     flex-direction: column;
-    gap: 3px 0px;
+    gap: 4px 0px;
     position: absolute;
-    top: 16px;
-    right: 8px;
+    top: 33px;
+    right: 17px;
   }
   
   .burger_menu
   {
     display: block  ;
     background-color: white;
-    height: 1px;
-    width: 12px;
+    height: 3px;
+    width: 22px;
   }
   
   .header
@@ -917,8 +917,8 @@ body
   .header_title
   {
     width: 100%;
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 26px;
+    line-height: 35px;
     margin-top: 14px;
     padding: 0 15px;
   }
@@ -928,7 +928,7 @@ body
     flex-direction: column;
     width: 100%;
     margin: auto;
-    padding: 113px 0px 105px 0px;
+    padding: 195px 0px 105px 0px;
   }
   .header::before
   {
@@ -960,8 +960,8 @@ body
   }
   .header_logo
   {
-    width: 135px;
-    height: 30px;
+    width: 270px;
+    height: 110px;
     margin: auto;
     padding-left: 0;
   }
@@ -1368,18 +1368,18 @@ body
   {
     display: flex;
     flex-direction: column;
-    gap: 3px 0px;
+    gap: 4px 0px;
     position: absolute;
-    top: 16px;
-    right: 8px;
+    top: 33px;
+    right: 17px;
   }
   
   .burger_menu
   {
     display: block  ;
     background-color: white;
-    height: 1px;
-    width: 12px;
+    height: 3px;
+    width: 22px;
   }
   
   .header
@@ -1392,8 +1392,8 @@ body
   .header_title
   {
     width: 100%;
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 26px;
+    line-height: 35px;
     margin-top: 14px;
     padding: 0 15px;
   }
@@ -1403,7 +1403,7 @@ body
     flex-direction: column;
     width: 100%;
     margin: auto;
-    padding: 113px 0px 105px 0px;
+    padding: 195px 0px 105px 0px;
   }
   .header::before
   {
@@ -1435,8 +1435,8 @@ body
   }
   .header_logo
   {
-    width: 135px;
-    height: 30px;
+    width: 270px;
+    height: 110px;
     margin: auto;
     padding-left: 0;
   }
