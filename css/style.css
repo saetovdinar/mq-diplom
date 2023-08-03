@@ -928,7 +928,7 @@ body
     flex-direction: column;
     width: 100%;
     margin: auto;
-    padding: 195px 0px 105px 0px;
+    padding: 195px 0px 215px 0px;
   }
   .header::before
   {
@@ -944,14 +944,14 @@ body
   }
   .trends_title
   {
-    font-size: 8px;
-    margin-top: 19px;
-    margin-bottom: 11px;
+    font-size: 16px;
+    margin-top: 38px;
+    margin-bottom: 27px;
   }
   .trends_title::after
   {
     margin: 5px auto 0 auto;
-    width: 33px;
+    width: 67px;
     height: 2px;
   }
   .page_nav
@@ -970,25 +970,27 @@ body
     display: block;
     margin: auto;
   }
-
+  .tends_teg_name_link {
+    font-size: 12px;
+  }
   .trends_topics_container
   {
     width: 100%;
     flex-wrap: wrap;
-    gap: 1px 1px;
+    gap: 2px 1px;
   }
   .trends_title_container
   {
-    width: 164px;
-    padding: 10px 7px 14px 9px; ;
-    margin: 0px 0 7px 0;;
-    border: solid 1px #76693c;
+    width: 325px;
+    padding: 32px 7px 24px 17px; ;
+    margin: 0px 0 12px 0;;
+    border: solid 3px #76693c;
     
   }
   .trends_topic
   {
-    width: calc(50% - 1px);
-    height: 116px;
+    min-height: 230px;
+    height: auto;
     padding: 0;
   }
   .trends_teg_name 
@@ -996,13 +998,14 @@ body
     display: inline-block;
     font-size: 7px;
     padding-left: 1.5px;
-    margin-bottom: 4px;
+    margin-bottom: 9px;
     margin-right: 4px;
   }
   .trends_topic_title_link
   {
-    font-size: 8px;
+    font-size: 16px;
     line-height: 10px;
+    line-height: 28px;
   }
   .trends_topics_title
   {
@@ -1021,15 +1024,15 @@ body
   .page_topics
   {
     display: block;
-    width: 180px;
-    height: 250px;
+    width: 330px;
+    height: 350px;
     padding-right: 15px;
     margin-bottom: 0px;
     margin: auto;
   }
   .topic_img_container {
-    width: 165px;
-    height: 125px;
+    width: 325px;
+    height: 260px;
   }
   .topic_description_conteiner {
     width: 165px;
@@ -1044,31 +1047,30 @@ body
     margin-bottom: 0px;
     height: 240px;
   }
-  
-  .news_image
-  {
-    width: 165px;
-    height: 125px;
-    margin-right: 0;
-   
-  }
   .topics_title
   {
     margin-top: 0px;
     margin-bottom: 2px;
   }
-
-  .topics_title_link
-  {
-    font-size: 8px;
-    line-height: 13px;
-  }
   .topic_top_tegs {
     margin-top: 10px;
   }
+  .news_image
+  {
+    width: 325px;
+    height: 260px;
+    margin-right: 0;
+   
+  }
+  .topics_title_link
+  {
+    font-size: 16px;
+    line-height: 13px;
+  }
+ 
   .topic_teg_name
   {
-    font-size: 7px;
+    font-size: 14px;
     margin-right: 6px;
   }
   .topic_additional_inf
@@ -1403,7 +1405,7 @@ body
     flex-direction: column;
     width: 100%;
     margin: auto;
-    padding: 195px 0px 105px 0px;
+    padding: 195px 0px 215px 0px;
   }
   .header::before
   {
@@ -1419,14 +1421,14 @@ body
   }
   .trends_title
   {
-    font-size: 8px;
-    margin-top: 19px;
-    margin-bottom: 11px;
+    font-size: 16px;
+    margin-top: 38px;
+    margin-bottom: 27px;
   }
   .trends_title::after
   {
     margin: 5px auto 0 auto;
-    width: 33px;
+    width: 67px;
     height: 2px;
   }
   .page_nav
@@ -1450,20 +1452,21 @@ body
   {
     width: 100%;
     flex-wrap: wrap;
-    gap: 1px 0px;
+    gap: 2px 0px;
   }
   .trends_title_container
   {
-    width: 164px;
-    padding: 10px 7px 14px 9px; ;
-    margin: 0px 0 7px 0;;
-    border: solid 1px #76693c;
+    width: 325px;
+    padding: 32px 7px 24px 17px; ;
+    margin: 0px 0 12px 0;;
+    border: solid 3px #76693c;
     
   }
   .trends_topic
   {
+    min-height: 230px;
     width: 100%;
-    height: 116px;
+    height: auto;
     padding: 0;
   }
   .trends_teg_name 
@@ -1471,13 +1474,17 @@ body
     display: inline-block;
     font-size: 7px;
     padding-left: 1.5px;
-    margin-bottom: 4px;
+    margin-bottom: 9px;
     margin-right: 4px;
+  }
+  .tends_teg_name_link {
+    font-size: 12px;
   }
   .trends_topic_title_link
   {
-    font-size: 8px;
+    font-size: 16px;
     line-height: 10px;
+    line-height: 22px;
   }
   .trends_topics_title
   {
@@ -1487,7 +1494,7 @@ body
   {
     width: 100%;
     display: block;
-    padding: 22px 7px 0 7px;
+    padding: 50px 7px 0 7px;
   }
   .page
   {
@@ -1496,83 +1503,87 @@ body
   .page_topics
   {
     display: block;
-    width: 180px;
-    height: 250px;
-    padding-right: 15px;
+    width: 376px;
+    min-height: 445px;
+    padding: 0 42px 0 7px;
     margin-bottom: 0px;
     margin: auto;
   }
- 
+  .page_topics::after {
+    content: "";
+    display: block;
+    width: 330px;
+    height: 2px;
+    margin-top: 21px;
+    margin-bottom: 36px;
+    background-color: #eeeeee;
+  }
   .topic_img_container {
-    width: 165px;
-    height: 125px;
+    width: 325px;
+    height: 260px;
+    margin-right: 0px;
   }
   .topic_description_conteiner {
-    width: 165px;
+    width: auto;
   }
   .topic_top_tegs {
     margin-top: 7px;
     margin-bottom: 5px;
   }
-  .margin_third
-  {
-    margin-bottom: 17px;
-  }
-  .margin_fourth
-  {
-    margin-bottom: 0px;
-    height: 240px;
-  }
-  
   .news_image
   {
-    width: 165px;
-    height: 125px;
+    width: 327px;
+    height: 255px;
     margin-right: 0;
    
   }
+  .topics_title_link
+  {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 12px;
+  }
+ 
+  .topic_teg_name
+  {
+    font-size: 14px;
+    margin-right: 17px;
+  }
+  .margin_third
+  {
+    margin-bottom: 44px;
+  }
+  .margin_fourth
+  {
+    margin-bottom: 31px;
+  }
+  
   .topics_title
   {
     margin-top: 0px;
     margin-bottom: 2px;
   }
-
-  .topics_title_link
-  {
-    font-size: 8px;
-    line-height: 13px;
-  }
-  .topic_teg_name
-  {
-    font-size: 7px;
-    margin-right: 6px;
-  }
   .topic_additional_inf
   {
-    margin-bottom: 4px;
-  }
-  .topics_title_link
-  {
-    font-size: 8px;
-    line-height: 10px;
+    margin-bottom: 16px;
   }
   .topic_data 
   {
-    font-size: 6px;
+    font-size: 12px;
   }
   .autor
   {
-    font-size: 6px;
-    margin-left: 2px;
+    font-size: 12px;
+    margin-left: 7px;
   }
   .aside_sections_titles
   {
-    font-size: 8px;
+    font-size: 16px;
     
   }
   .first
   {
-    padding-bottom: 12px;
+    padding-bottom: 26px;
     padding-top: 10px;
   }
   .third
@@ -1586,50 +1597,50 @@ body
   }
   .new_post__title_link
   {
-    font-size: 7px;
-    line-height: 10px;
+    font-size: 14px;
+    line-height: 15px;
   } 
   .new_post_date
   {
-    font-size: 6px;
-    margin-bottom: 0px;
+    font-size: 12px;
+    margin-bottom: 5px;
   }
   .new_posts_conteiner
   {
-    margin-bottom: 31px;
+    margin-bottom: 58px;
   }
  
   .aside_search_form 
   {
-    height: 41px;
-    width: 180px;
+    height: 88px;
+    width: 330px;
   }
   .aside_search_field::placeholder
   {
-    font-size: 8px;
+    font-size: 16px;
   }
   .aside_search_field
   {
-    height: 22px;
-    padding: 0px 0 0px 9px;
+    height: 50px;
+    padding: 0px 0 0px 15px;
   }
   .aside_search_btn 
   {
-    width: 30px;
-    height: 22px;
-    background-size: 10px 10px;
+    width: 55px;
+    height: 45px;
+    background-size: 30px 20px;
   }
   .aside_new_post_item 
   {
     margin: auto;
-    margin-bottom: 11px;
-    width: 180px;
+    margin-bottom: 24px;
+    width: 325px;
   }
   .aside_post_image
   {
-    width: 36px;
-    height: 35px;
-    margin-right: 10px;
+    width: 69px;
+    height: 69px;
+    margin-right: 20px;
   }
   .aside_new_posts 
   {
@@ -1637,8 +1648,8 @@ body
   }
   .aside_sections_titles::after
   {
-    height: 1px;
-    width: 32px;
+    height: 2px;
+    width: 70px;
     margin-top: 7px;
    
   }
@@ -1655,13 +1666,13 @@ body
   }
   .topic_description
   {
-    font-size: 7px;
-    line-height: 10px;
+    font-size: 14px;
+    line-height: 19px;
   }
   .aside_distribution 
   {
     margin-bottom: 0px;
-    width: 180px;
+    width: 330px;
     margin: auto;
   }
   .aside
