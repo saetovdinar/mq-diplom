@@ -72,7 +72,7 @@ body
 }
 ._hidden
 {
-  display: block;
+  display: none;
 }
 .pop_up_container
 {
